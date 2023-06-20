@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francgrasso/cypress-exp.git"
+  },
+  "author": "YITH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francgrasso/cypress-exp/issues"
+  },
+  "homepage": "https://github.com/francgrasso/cypress-exp#readme",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
