@@ -1,5 +1,10 @@
 describe('Create sandbox', () => {
     it('Opens a new sandbox successfully', () => {
+
+        cy.viewport(1440, 900);
+
+        cy.clearCookies();
+
         // Visit the WordPress site
         cy.visit('https://plugins.yithemes.com/yith-woocommerce-gift-cards/');
         
